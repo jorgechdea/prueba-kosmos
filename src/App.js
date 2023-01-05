@@ -23,9 +23,9 @@ const App = () => {
       const urls = data.map(u => u.url)
       setPhotos(urls);
     }
+
     fetchPhotos();
   }, []);
-
 
 
   const addMoveable = () => {
